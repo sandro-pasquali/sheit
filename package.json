@@ -1,0 +1,24 @@
+{
+  "name": "sheit",
+  "version": "1.0.0",
+  "description": "Google Spreadsheets agent",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Sandro Pasquali <spasquali@gmail.com>",
+  "license": "AGPL-3.0",
+  "engines": "9.5.x",
+  "devDependencies": {
+    "surveyor": "^2.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "google-spreadsheet": "^2.0.4",
+    "lodash": "^4.17.5"
+  }
+}
