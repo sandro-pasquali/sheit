@@ -56,13 +56,11 @@ To share your spreadsheet with this applictions, copy the value of __client_emai
 
 # Usage
 
-You're going to use your service account credentials to connect to a Google Sheet, and subscribe to change events:
-
-'use strict';
+You're going to use your service account credentials to authenticate and connect to a Google Sheet, and then subscribe to change events:
 
 ```
-require('../lib')({
-    auth: require(`../auth/service.json`),
+require('sheit')({
+    auth: require(`/path/to/service_creds.json`),
     sheetId: 'MNpDU9sY-9BVKlIs',
     emailField: 'assigned',
     descriptionField: 'hed',
@@ -84,6 +82,11 @@ require('../lib')({
 });
 
 ```
+
+You can get the `sheetId` from your spreadsheet's url:
+
+https://docs.google.com/spreadsheets/d/**10BMNpDU9sY-9BVKPH9XGqLSO5d3Y5boXb-CBqpm9lIs**/edit#gid=0
+
 
 # License
 
