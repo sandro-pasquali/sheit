@@ -1,6 +1,6 @@
 {
   "name": "sheit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Google Spreadsheets agent",
   "main": "lib/index.js",
   "directories": {
